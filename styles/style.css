@@ -12,8 +12,7 @@ body {
 }
 /* Banner Section Style Start Here */
 .banner-container {
-  width: 1320px;
-  border: 2px solid red;
+  max-width: 1320px;
   min-height: 600px;
   margin: 0 auto;
   margin-top: 20px;
@@ -23,6 +22,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
+  border-radius: 15px;
 }
 .banner-content {
   display: flex;
@@ -44,4 +44,45 @@ h1 {
   font-size: 72px;
   font-weight: 900;
   text-align: center;
+}
+
+/* 65% section style start here */
+.second-section-container {
+  width: 802.9px;
+  height: 806px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.second-section-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-section-content h1 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+}
+.second-section-content p {
+  color: #f00;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.second-section-content h3 {
+  color: #070211;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.image-container {
+  width: 802.9px;
+  height: 500px;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  margin-top: 48px;
 }
