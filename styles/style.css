@@ -17,7 +17,11 @@ body {
   margin: 0 auto;
   margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.5);
+<<<<<<< HEAD
   background-image: url(../images/Banner-Image.png);
+=======
+  background-image: url(/images/Banner-Image.png);
+>>>>>>> ba413007daf1d633e1d53984570906681c9200fd
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
